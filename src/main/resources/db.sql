@@ -16,7 +16,7 @@ alter table user comment '用户表';
 
 CREATE TABLE `flow` (
   `id` varchar(20) NOT NULL,
-  `flow_num` varchar(20) DEFAULT NULL COMMENT '流水号',
+  `flow_num` varchar(80) DEFAULT NULL COMMENT '流水号',
   `order_num` varchar(20) DEFAULT NULL COMMENT '订单号',
   `product_id` varchar(20) DEFAULT NULL COMMENT '产品主键ID',
   `paid_amount` varchar(11) DEFAULT NULL COMMENT '支付金额',
